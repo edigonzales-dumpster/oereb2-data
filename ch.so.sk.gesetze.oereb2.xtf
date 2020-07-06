@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3"
+xmlns:ili2c="http://www.interlis.ch/ili2c"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <HEADERSECTION SENDER="Amt fuer Geoinformation Kanton Solothurn" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="OeREBKRMvs_V2_0" VERSION="2020-07-02" URI="http://models.geo.admin.ch/V_D/OeREB/"/>
+    </MODELS>
+    <COMMENT>"2020-07-06"</COMMENT>
+  </HEADERSECTION>
+  <DATASECTION>
+    <OeREBKRMvs_V2_0.Vorschriften BID="ch.so.sk.gesetze.oereb2">
+      <!-- BGS 711.1 - Planungs- und Baugesetz -->
+      <OeREBKRMvs_V2_0.Vorschriften.Dokument TID="ch.so.sk.bgs.711.1">
+        <Typ>GesetzlicheGrundlage</Typ>
+        <TextImWeb>
+          <OeREBKRM_V2_0.MultilingualUri>
+            <LocalisedText>
+              <OeREBKRM_V2_0.LocalisedUri>
+                <Language>de</Language>
+                <Text>https://bgs.so.ch/data/711.1</Text>
+              </OeREBKRM_V2_0.LocalisedUri>
+            </LocalisedText>
+          </OeREBKRM_V2_0.MultilingualUri>
+        </TextImWeb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <publiziertAb>1978-12-03</publiziertAb>
+        <Kanton>SO</Kanton>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Planungs- und Baugesetz</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Abkuerzung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>PBG</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Abkuerzung>
+        <OffizielleNr>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>BGS 711.1</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </OffizielleNr>
+        <ZustaendigeStelle REF="ch.so.sk"/>
+      </OeREBKRMvs_V2_0.Vorschriften.Dokument>
+      <!-- BGS 711.61 - Kantonale Bauverordnung -->
+      <OeREBKRMvs_V2_0.Vorschriften.Dokument TID="ch.so.sk.bgs.711.61">
+        <Typ>GesetzlicheGrundlage</Typ>
+        <TextImWeb>
+          <OeREBKRM_V2_0.MultilingualUri>
+            <LocalisedText>
+              <OeREBKRM_V2_0.LocalisedUri>
+                <Language>de</Language>
+                <Text>https://bgs.so.ch/data/711.61/</Text>
+              </OeREBKRM_V2_0.LocalisedUri>
+            </LocalisedText>
+          </OeREBKRM_V2_0.MultilingualUri>
+        </TextImWeb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <publiziertAb>1978-07-03</publiziertAb>
+        <Kanton>SO</Kanton>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kantonale Bauverordnung</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Abkuerzung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>KBV</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Abkuerzung>
+        <OffizielleNr>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>BGS 711.61</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </OffizielleNr>
+        <ZustaendigeStelle REF="ch.so.sk"/>
+      </OeREBKRMvs_V2_0.Vorschriften.Dokument>
+    </OeREBKRMvs_V2_0.Vorschriften>
+  </DATASECTION>
+</TRANSFER>

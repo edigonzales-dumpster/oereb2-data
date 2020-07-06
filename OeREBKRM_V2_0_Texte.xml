@@ -1,0 +1,2048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <HEADERSECTION SENDER="swisstopo, Federal Directorate of Cadastral Surveying" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="InternationalCodes_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="LocalisationCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="CatalogueObjects_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="OeREBKRMkvs_V2_0" VERSION="2020-07-02" URI="http://models.geo.admin.ch/V_D/OeREB/"/>
+    </MODELS>
+    <!-- Stand der XML-Datei, Etat du fichier XML, Stato del XML-File -->
+    <COMMENT>"2020-07-02"</COMMENT>
+  </HEADERSECTION>
+  <DATASECTION>
+    <OeREBKRMkvs_V2_0.Konfiguration BID="ch.admin.v_d.oerebkrmkvs_konfiguration">
+      <OeREBKRMkvs_V2_0.Konfiguration.RechtsStatusTxt TID="1">
+        <Code>inKraft</Code>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>In Kraft</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>En vigueur</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>In vigore</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>En vigur</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>In force</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+      </OeREBKRMkvs_V2_0.Konfiguration.RechtsStatusTxt>
+      <OeREBKRMkvs_V2_0.Konfiguration.RechtsStatusTxt TID="2">
+        <Code>AenderungMitVorwirkung</Code>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Änderung mit rechtlicher Vorwirkung</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Modification avec effet juridique anticipé</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Modificazione con effetto giuridiche anticipato</Text>
+              </LocalisationCH_V1.LocalisedText>
+               <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Midada xxxx</Text>
+              </LocalisationCH_V1.LocalisedText>
+               <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Modification with xxx</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+      </OeREBKRMkvs_V2_0.Konfiguration.RechtsStatusTxt>
+      <OeREBKRMkvs_V2_0.Konfiguration.RechtsStatusTxt TID="3">
+        <Code>AenderungOhneVorwirkung</Code>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Änderung ohne Vorwirkung</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Modification sans effet anticipé</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Modificazione senza effetto anticipato</Text>
+              </LocalisationCH_V1.LocalisedText>
+               <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Midada xxxx</Text>
+              </LocalisationCH_V1.LocalisedText>
+               <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Modification without xxx</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+      </OeREBKRMkvs_V2_0.Konfiguration.RechtsStatusTxt>
+      <OeREBKRMkvs_V2_0.Konfiguration.DokumentTypTxt TID="10">
+        <Code>Rechtsvorschrift</Code>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Rechtsvorschrift</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Disposition juridique</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Prescrizione legale</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Prescripziun giuridica</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Legal provision</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+      </OeREBKRMkvs_V2_0.Konfiguration.DokumentTypTxt>
+      <OeREBKRMkvs_V2_0.Konfiguration.DokumentTypTxt TID="11">
+        <Code>GesetzlicheGrundlage</Code>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gesetzliche Grundlage</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Base légale</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Base legale</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Basa legala</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Legal basis</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+      </OeREBKRMkvs_V2_0.Konfiguration.DokumentTypTxt>
+      <OeREBKRMkvs_V2_0.Konfiguration.DokumentTypTxt TID="12">
+        <Code>Hinweis</Code>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Hinweis</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Renvoi</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Indicazione</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Indicaziun</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Reference</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+      </OeREBKRMkvs_V2_0.Konfiguration.DokumentTypTxt>
+      <OeREBKRMkvs_V2_0.Konfiguration.GrundstueckArtTxt TID="21">
+        <Code>Liegenschaft</Code>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Liegenschaft</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Bien-fonds</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Bene immobile</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Bain immobigliar</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Property</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+      </OeREBKRMkvs_V2_0.Konfiguration.GrundstueckArtTxt>
+      <OeREBKRMkvs_V2_0.Konfiguration.GrundstueckArtTxt TID="22">
+        <Code>SelbstRecht.Baurecht</Code>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Baurecht</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Droit de superficie</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Diritto di superficie</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Dretg da construcziun</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Building right</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+      </OeREBKRMkvs_V2_0.Konfiguration.GrundstueckArtTxt>
+      <OeREBKRMkvs_V2_0.Konfiguration.GrundstueckArtTxt TID="23">
+        <Code>SelbstRecht.Quellenrecht</Code>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Quellenrecht</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Droit de source</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Diritto di sorgente</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Dretg da funtauna</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Right to spring water</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+      </OeREBKRMkvs_V2_0.Konfiguration.GrundstueckArtTxt>
+      <OeREBKRMkvs_V2_0.Konfiguration.GrundstueckArtTxt TID="24">
+        <Code>SelbstRecht.Konzessionsrecht</Code>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Konzessionsrecht</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Droit de concession</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Diritto di concessione</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Dretg da concessiun</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Right to licence</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+      </OeREBKRMkvs_V2_0.Konfiguration.GrundstueckArtTxt>
+      <OeREBKRMkvs_V2_0.Konfiguration.GrundstueckArtTxt TID="25">
+        <Code>SelbstRecht.weitere</Code>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>weiteres SDR</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>autes DDP</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>altre DSP</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+      </OeREBKRMkvs_V2_0.Konfiguration.GrundstueckArtTxt>
+      <OeREBKRMkvs_V2_0.Konfiguration.GrundstueckArtTxt TID="26">
+        <Code>Bergwerk</Code>
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bergwerk</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Mine</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Miniera</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Miniera</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Mine</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+      </OeREBKRMkvs_V2_0.Konfiguration.GrundstueckArtTxt>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="100">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>ÖREB-Kataster</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Cadastre RDPPF</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Catasto RDPP</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Cataster RDPP</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>PLR Cadastre</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Cadastre des restrictions de droit public à la propriété foncière</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Catasto delle restrizioni di diritto pubblico della proprietà</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>Cataster da las restricziuns da dretg public da la proprietad</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>Cadastre of public-law restrictions on landownership</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="101">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>ÖREB</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>RDPPF</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>RDPP</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>RDPP</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>PLR</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Öffentlich-rechtliche Eigentumsbeschränkung</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Restriction de droit public à la propriété foncière</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Restrizione di diritto publico della proprietà</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>Restricziun da dretg public da la proprietad funsila</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>Public-law restriction on landownership rights</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="102">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Eigentumsbeschränkung</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Restriction de la propriété</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Restrizione del diritto di proprietà</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Restricziun da la proprietad</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Restriction on ownership</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Der Zweck aller Eigentumsbeschränkungen ist die Wahrung von Interessen anderer Personen, denen jene des Eigentümers sich in bestimmter Beziehung unterordnen müssen. Dies sind entweder die Eigentümer angrenzender Grundstücke, die Nachbarn, oder auch weitere Kreise von Privatpersonen oder endlich die Allgemeinheit selber, der Staat. Die Beschränkungen zugunsten der Nachbarn oder weiterer Privatpersonen sind regelmässig privatrechtlicher, jene zugunsten der Allgemeinheit öffentlich-rechtlicher Natur.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Règle supprimant ou limitant des facultés normalement comprises dans la propriété qui est édictée pour tenir compte des intérêts des propriétaires voisins ou des besoins d'autres personnes, ou encore pour répondre à un intérêt général. Les restrictions du droit de propriété découlant du droit privé sont destinées à protéger les intérêts de personnes déterminées (p.ex. art. 684 CC sur les rapports de voisinage) alors que les restrictions de droit public sont édictées dans l'intérêt général de la collectivité (p.ex. la législation sur la police des constructions).</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="103">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>E-GRID</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>E-GRID</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>E-GRID</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>E-GRID</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>E-GRID</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Eidgenössischer Grundstücksidentifikator; Aus einem Präfix und einer Nummer bestehende Bezeichnung, die es erlaubt, jedes in das Grundbuch aufgenommene Grundstück landesweit eindeutig zu identifizieren, und die zum Datenaustausch zwischen Informatiksystemen dient.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Identificateur fédéral des immeubles; Désignation composée d'un préfixe et d'un numéro qui permet l'identification univoque pour tout le pays de chaque immeuble immatriculé au registre foncier et sert à l'échange des données entre les systèmes informatiques.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Identificatore federale dei fondi; xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>Identificaziun federala dals bains immobigliars; Indicaziun che consista d'in prefix e d'in numer che permetta d'identifitgar precis mintga immobiglia registrada en il cudesch funsil e che serva al barat da datas tranter ils sistems d'informatica.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>Federal parcel identification</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="104">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>BFS-Nr.</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>N° OFS</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>N. UST</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Gemeindenummer aus amtlichem Gemeindeverzeichnis; Eine vom schweizerischen Bundesamt für Statistik mit dem Amtlichen Gemeindeverzeichnis im Jahre 1986 erstmals vergebene Zahl, die der eineindeutigen Bezeichnung von territorialen Einheiten im Einzugsbereich der Schweiz dient.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Numéro officiel de la commune issu du répertoire officiel des communes; xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Numero del Comune nel elenco ufficiale dei Comuni; xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="105">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Baulinien Eisenbahnanlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Alignements des installations ferroviaires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Allineamenti per gli impianti ferroviari</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Lingias da construcziun dals implants da viafier</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Building lines for railways</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Zwischen den Baulinien dürfen keine baulichen Veränderungen vorgenommen oder sonstige Massnahmen getroffen werden, die dem Zweck bestehender oder künftiger Eisenbahnanlagen widersprechen.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="106">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Baulinien Flughafenanlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Alignements des installations aéroportuaires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Allineamenti per gli impianti aeroportuali</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Lingias da construcziun dals implants d'eroport</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Building lines for airports</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Zwischen den Baulinien dürfen keine baulichen Veränderungen vorgenommen oder sonstige Massnahmen getroffen werden, die dem Zweck bestehender oder künftiger Flughafenanlagen widersprechen.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="107">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Baulinien Nationalstrassen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Alignements des routes nationales</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Allineamenti per le strade nazionali</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Lingias da construcziun da las vias naziunalas</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Building lines for motorways</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Wenn der projektierte Strassenverlauf definitiv bekannt ist, werden beiderseits der Strasse Baulinien festgelegt. Diese Baulinien ermöglichen es, die Anforderungen der Verkehrssicherheit und der Wohnhygiene sowie die Erfordernisse eines eventuellen künftigen Ausbaus der Strasse zu berücksichtigen. Zwischen den Baulinien dürfen ohne Bewilligung weder Neubauten erstellt noch Umbauten bestehender Gebäude vorgenommen werden, auch wenn diese nur teilweise in die Baulinien hineinragen.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="108">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Baulinien Starkstromanlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Alignements des installations électriques à courant fort</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Allineamenti per impianti a corrente forte</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Zwischen den Baulinien dürfen keine baulichen Veränderungen vorgenommen oder sonstige Massnahmen getroffen werden, die dem Zweck bestehender oder künftiger Starkstromanlagen widersprechen.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="109">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gesetzliche Grundlage</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Base légale</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Base legale</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Basa legala</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Legal basis</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Gesetz, Verordnung, Reglement etc. das generell-abstrakt ist (generell für die Person, die nicht bekannt ist, abstrakt, weil der Perimeter ohne Karte definiert ist) und auf Bundesebene, auf kantonaler oder kommunaler Ebene erlassen worden ist und die bloss eine allgemeine Rechtsgrundlage der Eigentumsbeschränkung darstellen. Die gesetzliche Grundlage ist nicht Teil des ÖREB-Katasters. Der ÖREB-Kataster enthält aber Hinweise auf die entsprechende gesetzliche Grundlage.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="110">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gewässerraum</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Espace réservé aux eaux</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Spazio riservato alle acque</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Spazi d'auas</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Landschaftsraum, der das Gerinne und gewässernahe Bereiche, welche in direkter Beziehung zum Gewässer stehen, umfasst.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Espace comprenant le chenal et les zones proches en relation directe avec le cours d'eau.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Spazio che comprende l'alveo e le zone a diretto contatto con il corso d'acqua.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="111">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Grundwasserschutzareal</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Périmètre de protection des eaux souterraines</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Area di protezione delle acque sotterranee</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Areals da protecziun da las auas sutterranas</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Groundwater protection areas</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Von Kanton festgelegtes Areal, das für die künftige Nutzung und Anreicherung von Grundwasservorkommen von Bedeutung ist und in dem keine Bauten und Anlagen erstellt oder Arbeiten ausgeführt werden, die künftige Nutzungs- und Anreicherungsanlagen beeinträchtigen könnten.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Périmètre concentrique dont le but est de protéger l'exploitation et l'alimentation artificielle de nappes souterraines et dans lequel il est interdit de construire des bâtiments ou d'effectuer des travaux qui pourraient compromettre l'établissement futur d'installations d'exploitation ou d'alimentation des eaux souterraines.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Area delimitata dai Cantoni, importante per il futuro sfruttamento e l'alimentazione della falda freatica, in cui non possono essere costruiti edifici o impianti né essere eseguiti lavori che possano pregiudicare i futuri impianti di sfruttamento o alimentazione.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="112">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Grundwasserschutzzone</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Zone de protection des eaux souterraines</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Zona di protezione delle acque sotterranee</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Zonas da protecziun da las auas sutterranas</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Groundwater protection zones</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Grundwasserschutzzone, in der gewährleistet werden soll, dass bei unmittelbar drohenden Gefahren wie Unfällen mit wassergefährdenden Stoffen ausreichend Zeit und Raum für die erforderlichen Massnahmen zur Verfügung stehen.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Zone de protection des eaux souterraines devant garantir qu'en cas de danger imminent (p. ex. en cas d'accident impliquant des substances pouvant polluer les eaux), on dispose de suffisamment de temps et d'espace pour prendre les mesures qui s'imposent.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Zona di protezione delle acque sotterranee che deve garantire che, in caso di pericolo immediato (p. es. incidenti con sostanze suscettibili di inquinare le acque), vi sia sufficiente tempo e spazio per le misure di risanamento.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="113">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kataster der belasteten Standorte</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Cadastre des sites pollués</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Catasto dei siti inquinati</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Cataster dals lieus contaminads</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Cadastre of contaminated sites</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Der Kataster enthält Deponien und andere durch Abfälle belastete Standorte, die saniert werden, wenn sie zu schädlichen oder lästigen Einwirkungen führen oder die konkrete Gefahr besteht, dass solche Einwirkungen entstehen. Die Behörde ermittelt die belasteten Standorte, indem sie vorhandene Angaben wie Karten, Verzeichnisse und Meldungen auswertet. Sie trägt diejenigen Standorte, deren Belastung erwiesen oder sehr wahrscheinlich ist, in den Kataster ein.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="114">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Katasterverantwortliche Stelle</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Organisme responsable du cadastre</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Organo responsabile del Catasto</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Post resposnabel per il cataster</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Office responsible for managing the Cadastre</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Die katasterverantwortliche Stelle im Kanton erhält die in den ÖREB-Kataster aufzunehmenden Daten von den zuständigen Fachstellen. Sie verwaltet diese Daten und stellt sie via kantonales ÖREB-Geoportal der Öffentlichkeit zur Verfügung.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="115">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>KbS</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>CSP</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Kataster der belasteten Standorte</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Cadastre des sites pollués</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Catasto dei siti inquinati</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>Cataster dals lieus contaminads</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>Cadastre of contaminated sites</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="116">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Lärmempfindlichkeitsstufen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Degré de sensibilité au bruit</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Gradi di sensibilità al rumore</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Grads da sensibladad da canera</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Noise sensitivity level</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Empfindlichkeitsstufen werden festgelegt, um jeweils bestimmte Zonen zu definieren: diejenigen, die eines erhöhten Lärmschutzes bedürfen, diejenigen, in denen keine störenden Betriebe zugelassen sind, und diejenigen, in denen mässig und stark störende Betriebe zugelassen sind.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="117">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Planungszonen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Zone réservée</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Zona di pianificazione</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Zona da planisaziun</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Planning zone</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Zone, die ein genau bezeichnetes Gebiet umfasst, für das ein Nutzungsplan angepasst werden muss oder noch keiner vorliegt, und innerhalb derer nichts unternommen werden darf, was die Nutzungsplanung erschwert.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Zone comprenant un territoire pour lequel un plan d'affectation doit être adopté ou adapté et à l'intérieur de laquelle rien ne doit être entrepris qui puisse entraver l'établissement du plan d'affectation.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Zona comprendente un territorio per il quale il piano di utilizzazione manca o dev'essere adottato, e all'interno della quale nulla può essere intrapreso che possa rendere più ardua la pianificazione dell'utilizzazione.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>Sche plans d'utilisaziun ston vegnir adattads u sch'els n'èn betg anc avant maun, po l'autoritad cumpetenta determinar zonas da planisaziun per territoris circumscrits detagliadamain. Entaifer las zonas da planisaziun na dastga vegnir fatg nagut che pudess engrevgiar la planisaziun d'utilisaziun.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>Area designated by the authorities with immediately binding effect for which land use plans have to be made or adapted and nothing may be done which could prejudice a future land use plan.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="118">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Projektierungszonen Eisenbahnanlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Zones réservées des installations ferroviaires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Zone di progettazione per gli impianti ferroviari</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Zonas da projectaziun dals implants da viafier</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Reserved zones for railways</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Um die freie Verfügbarkeit der für künftige Bahnbauten und -anlagen erforderlichen Grundstücke zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Eisenbahnen widersprechen.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="119">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Projektierungszonen Flughafenanlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Zones réservées des installations aéroportuaires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Zone di progettazione per gli impianti aeroportuali</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Zona da projectaziun dals implants d'eroport</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Reserved zones for railways</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Um die freie Verfügbarkeit der für Flughafenanlagen erforderlichen Grundstücke zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Flughafenanlagen widersprechen.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="120">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Projektierungszonen Leitungen mit einer Nennspannung von 220 kV oder höher</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Zones réservées des lignes d’une tension nominale égale ou supérieure à 220 kV</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Zone riservate per linee con una tensione nominale pari o superiore a 220 kV</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Um die freie Verfügbarkeit der für Leitungen mit einer Nennspannung von 220 kV oder höher erforderlichen Grundstücke zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Leitungen widersprechen.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="121">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Projektierungszonen Nationalstrassen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Zones réservées des routes nationales</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Zone di progettazione per le strade nazionali</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Zonas da projectaziun da las vias naziunalas</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Reserved zones for motorways</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Um die freie Verfügbarkeit des für den Bau der Nationalstrassen erforderlichen Landes zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Nationalstrassen widersprechen.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="122">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Nutzungsplanung</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Plan d'affectation</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Piani di utilizzazione</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Planisaziun d'utilisaziun</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Land use planning</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Festlegung der Verwendung einzelner Bodenflächen für bestimmte Zwecke (z. B. Landwirtschaft, Siedlung, Wald).</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="123">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Rechtsvorschrift</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Disposition juridique</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Prescrizione legale</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Prescripziun giuridica</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Legal provision</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Generell-konkrete Rechtsnorm, die zusammen mit den ihr zugeschriebenen Geobasisdaten die Eigentumsbeschränkung unmittelbar umschreibt und innerhalb desselben Verfahrens verabschiedet worden ist.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Norme juridique à caractère général et concret qui, formant un tout avec les géodonnées de base qui lui sont associées, décrit directement la restriction de propriété et est régie par la même procédure.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Norma giuridica generale e concreta che, unitamente ai corrispondenti geodati di base e costituendo un'unità con quest'ultimi, descrive in maniera immediata le restrizioni della proprietà e per le quali è determinante la medesima procedura.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>Prescripziun general-concreta che circumscriva ensemen cun las geodatas da basa attribuidas directamain la restricziun da la proprietad e ch'è vegnida approvada entaifer la medema procedura.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="124">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Sicherheitszonenplan</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Plan de la zone de sécurité</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Piano delle zone di sicurezza</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Plan da zonas da segirezza</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Security zone plan</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Zonenplan, in dem die Sicherheitszonen dargestellt sind und aus dem die Eigentumsbeschränkungen nach Fläche und Höhe ersichtlich sind.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Plan de zone représentant la zone de sécurité et indiquant les restrictions de la propriété en surface et en hauteur.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Piano di zona in cui è rappresentata la zona di sicurezza e sono indicate le limitazioni della proprietà in superficie e in altezza.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="125">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Statische Waldgrenze</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Limite forestière statique</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Margine statico della foresta</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Cunfin static dal guaud</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Static forest perimeter</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Statische Waldgrenzen müssen auf der Grundlage rechtskräftiger Waldfeststellungen festgelegt werden. Neue Bestockungen ausserhalb dieser Waldgrenzen gelten nicht als Wald.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="126">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Waldabstandslinie</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Distances par rapport à la forêt</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Linee di distanza dalle foreste</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Lingias da distanza dal guaud</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Forest distance lines</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Bauten und Anlagen in Waldesnähe sind nur zulässig, wenn sie die Erhaltung, Pflege und Nutzung des Waldes nicht beeinträchtigen.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>xxx a traduire d'ici fin 2020 au plus tard</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="127">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Waldreservate</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Réserve forestière</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Riserva forestale</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Reservat da guaud</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Forest reserve</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Geschützte Waldfläche, die der Erhaltung der Artenvielfalt von Fauna und Flora dient.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Surface forestière protégée qui assure la conservation de la diversité des espèces animales et végétales.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Superficie forestale protetta che garantisce la conservazione della molteplicità delle specie animali e vegetali.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Glossar TID="128">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Zuständige Stelle</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Service compétent</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Servizio competente</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>rm</Language>
+                <Text>Post cumpetent</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>en</Language>
+                <Text>Responsible authority</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Durch die Gesetzgebung bezeichnete Stelle des Bundes, des Kantons oder der Gemeinde, die für das Erheben, Nachführen und Verwalten der Geobasisdaten zuständig ist.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Service de la Confédération, du canton ou de la commune dont relèvent la saisie, la mise à jour et la gestion des géodonnées de base selon la législation.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>rm</Language>
+                <Text>xxx zu übersetzen, spätestens bis Ende 2020</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>en</Language>
+                <Text>xxx zu übersetzen</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Glossar>
+      <OeREBKRMkvs_V2_0.Konfiguration.Haftungsausschuss TID="43773">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Haftungsausschluss Kataster der belasteten Standorte (KbS)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Clause de non-responsabilité du cadastre des sites pollués (CSP)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Clausola di esclusione della responsabilità relativa al catasto dei siti inquinati (CSIN)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Der Kataster der belasteten Standorte (KbS) wurde anhand der vom Bundesamt für Umwelt BAFU festgelegten Kriterien erstellt und wird fortwährend aufgrund neuer Erkenntnisse (z.B. Untersuchungen) aktualisiert. Die im KbS eingetragenen Flächen können vom tatsächlichen Ausmass der Belastung abweichen. Erscheint ein Grundstück nicht im KbS, besteht keine absolute Gewähr, dass das Areal frei von jeglichen Abfall- oder Schadstoffbelastungen ist. Bahnbetrieblich, militärisch und für die Luftfahrt genutzte Standorte liegen im Zuständigkeitsbereich des Bundes.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Le cadastre des sites pollués (CSP) est établi d’après les critères émis par l’Office fédéral de l’environnement OFEV. Il est mis à jour continuellement sur la base des nouvelles connaissances (investigations). Les surfaces des sites indiqués dans le cadastre des sites pollués peuvent ne pas correspondre à la surface effectivement polluée. Cela ne signifie pas que tout terrain non inscrit au cadastre ne soit pas pollué et libre de tout déchet et pollution. Les zones utilisées à des fins de transports publics, militaire et aéronautique sont de la responsabilité de la Confédération.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Il catasto dei siti inquinati (CSIN) è stato elaborato sulla base dei criteri definiti dall'Ufficio federale dell'ambiente (UFAM) e viene continuamente aggiornato sulla base delle nuove conoscenze ottenute (p.es. in seguito a indagini). Le superfici riportate nel CSIN possono discostarsi dalla portata dell'inquinamento effettivo. Se un fondo non figura nel CSIN, non esiste alcuna garanzia assoluta che l'area sia libera da inquinamento dovuto a rifiuti o sostanze nocive. I siti sfruttati per finalità ferroviarie, militari o relative all'aviazione civile rientrano nella sfera di competenze della Confederazione.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+      </OeREBKRMkvs_V2_0.Konfiguration.Haftungsausschuss>
+      <OeREBKRMkvs_V2_0.Konfiguration.Information TID="43774">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Allgemeine Information</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Informations générales</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Informazioni generali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Der Inhalt des ÖREB-Katasters wird als bekannt vorausgesetzt. Der Kanton [xxxx] ist für die Genauigkeit und Verlässlichkeit der gesetzgebenden Dokumente in elektronischer Form nicht haftbar. Der Auszug hat rein informativen Charakter und begründet insbesondere keine Rechte und Pflichten. Rechtsverbindlich sind diejenigen Dokumente, welche rechtskräftig verabschiedet oder veröffentlicht worden sind. Weitere Informationen zum ÖREB-Kataster finden Sie unter cadastre.ch</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Le contenu du cadastre RDPPF est supposé connu. Le canton de [xxx] n’engage pas sa responsabilité sur l’exactitude ou la fiabilité des documents législatifs dans leur version électronique. L’extrait a un caractère informatif et ne crée aucun droit ou obligation. Les documents juridiquement contraignants sont ceux qui ont été légalement adoptés ou publiés. La certification d’un extrait confirme la concordance de cet extrait avec le cadastre RDPPF à la date d’établissement dudit extrait. Vous trouverez d’autres informations sur le cadastre RDPPF sous cadastre.ch</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Il contenuto del Catasto RDPP si considera noto. Il Canton [xxx] non può essere ritenuto responsabile per la precisione e l'affidabilità dei documenti legislativi in formato elettronico. L'estratto ha carattere puramente informativo e non è in particolare costitutivo di diritti e obblighi. Sono considerati giuridicamente vincolanti i documenti approvati o pubblicati passati in giudicato. Con l'autenticazione dell'estratto viene confermata la conformità dell'estratto rispetto al Catasto RDPP al momento della sua redazione. Ulteriori informazioni relative al Catasto RDPP sono disponibili su cadastre.ch</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+        <AuszugIndex>0</AuszugIndex>
+      </OeREBKRMkvs_V2_0.Konfiguration.Information>
+      <OeREBKRMkvs_V2_0.Konfiguration.Information TID="43775">
+        <Titel>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Hinweis auf Grundbuch</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Renvois au registre foncier</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Indicazioni concernente il registro fondiario</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Titel>
+        <Inhalt>
+          <LocalisationCH_V1.MultilingualMText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>de</Language>
+                <Text>Zusätzlich zu den Angaben in diesem Auszug können Eigentumsbeschränkungen auch im Grundbuch angemerkt sein.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>fr</Language>
+                <Text>Zxxxxx.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+              <LocalisationCH_V1.LocalisedMText>
+                <Language>it</Language>
+                <Text>Zxxxxx.</Text>
+              </LocalisationCH_V1.LocalisedMText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualMText>
+        </Inhalt>
+        <AuszugIndex>0</AuszugIndex>
+      </OeREBKRMkvs_V2_0.Konfiguration.Information>
+    </OeREBKRMkvs_V2_0.Konfiguration>
+  </DATASECTION>
+</TRANSFER>

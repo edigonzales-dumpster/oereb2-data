@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+  <HEADERSECTION SENDER="ili2pg-4.3.1-23b1f79e8ad644414773bb9bd1a97c8c265c5082" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="InternationalCodes_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="Localisation_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="LocalisationCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="Dictionaries_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="DictionariesCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="OeREBKRM_V2_0" VERSION="2020-07-02" URI="https://models.geo.admin.ch/V_D/OeREB/"/>
+    </MODELS>
+  </HEADERSECTION>
+  <DATASECTION>
+    <OeREBKRM_V2_0.Amt BID="OeREBKRM_V2_0.Amt">
+      <OeREBKRM_V2_0.Amt.Amt TID="ch.so.agi">
+        <Name>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Amt für Geoinformation</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Name>
+        <AmtImWeb>
+          <OeREBKRM_V2_0.MultilingualUri>
+            <LocalisedText>
+              <OeREBKRM_V2_0.LocalisedUri>
+                <Language>de</Language>
+                <Text>https://agi.so.ch</Text>
+              </OeREBKRM_V2_0.LocalisedUri>
+            </LocalisedText>
+          </OeREBKRM_V2_0.MultilingualUri>
+        </AmtImWeb>
+        <Strasse>Rötistrasse</Strasse>
+        <Hausnr>4</Hausnr>
+        <PLZ>4502</PLZ>
+        <Ort>Solothurn</Ort>
+      </OeREBKRM_V2_0.Amt.Amt>
+      <OeREBKRM_V2_0.Amt.Amt TID="ch.so.arp">
+        <Name>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Amt für Raumplanung</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Name>
+        <AmtImWeb>
+          <OeREBKRM_V2_0.MultilingualUri>
+            <LocalisedText>
+              <OeREBKRM_V2_0.LocalisedUri>
+                <Language>de</Language>
+                <Text>https://arp.so.ch</Text>
+              </OeREBKRM_V2_0.LocalisedUri>
+            </LocalisedText>
+          </OeREBKRM_V2_0.MultilingualUri>
+        </AmtImWeb>
+        <Strasse>Werkhofstrasse</Strasse>
+        <Hausnr>59</Hausnr>
+        <PLZ>4509</PLZ>
+        <Ort>Solothurn</Ort>
+      </OeREBKRM_V2_0.Amt.Amt>
+      <OeREBKRM_V2_0.Amt.Amt TID="ch.so.sk">
+        <Name>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Staatskanzlei</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Name>
+        <AmtImWeb>
+          <OeREBKRM_V2_0.MultilingualUri>
+            <LocalisedText>
+              <OeREBKRM_V2_0.LocalisedUri>
+                <Language>de</Language>
+                <Text>https://so.ch/staatskanzlei/</Text>
+              </OeREBKRM_V2_0.LocalisedUri>
+            </LocalisedText>
+          </OeREBKRM_V2_0.MultilingualUri>
+        </AmtImWeb>
+        <Strasse>Barfüssergasse</Strasse>
+        <Hausnr>24</Hausnr>
+        <PLZ>4509</PLZ>
+        <Ort>Solothurn</Ort>
+      </OeREBKRM_V2_0.Amt.Amt>
+      <OeREBKRM_V2_0.Amt.Amt TID="ch.2457">
+        <Name>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gemeinde Messen</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Name>
+        <AmtImWeb>
+          <OeREBKRM_V2_0.MultilingualUri>
+            <LocalisedText>
+              <OeREBKRM_V2_0.LocalisedUri>
+                <Language>de</Language>
+                <Text>https://www.messen.ch/</Text>
+              </OeREBKRM_V2_0.LocalisedUri>
+            </LocalisedText>
+          </OeREBKRM_V2_0.MultilingualUri>
+        </AmtImWeb>
+        <Strasse>Hauptstrasse</Strasse>
+        <Hausnr>46</Hausnr>
+        <PLZ>3254</PLZ>
+        <Ort>Messen</Ort>
+      </OeREBKRM_V2_0.Amt.Amt>
+      <OeREBKRM_V2_0.Amt.Amt TID="ch.2502">
+        <Name>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gemeinde Wisen</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Name>
+        <AmtImWeb>
+          <OeREBKRM_V2_0.MultilingualUri>
+            <LocalisedText>
+              <OeREBKRM_V2_0.LocalisedUri>
+                <Language>de</Language>
+                <Text>http://www.wisen.ch/</Text>
+              </OeREBKRM_V2_0.LocalisedUri>
+            </LocalisedText>
+          </OeREBKRM_V2_0.MultilingualUri>
+        </AmtImWeb>
+        <Strasse>Ausserdorfstrasse</Strasse>
+        <Hausnr>72</Hausnr>
+        <PLZ>4634</PLZ>
+        <Ort>Wisen SO</Ort>
+      </OeREBKRM_V2_0.Amt.Amt>
+    </OeREBKRM_V2_0.Amt>
+  </DATASECTION>
+</TRANSFER>
