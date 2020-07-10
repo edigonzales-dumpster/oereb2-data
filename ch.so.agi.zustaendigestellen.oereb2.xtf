@@ -90,6 +90,32 @@
         <PLZ>4509</PLZ>
         <Ort>Solothurn</Ort>
       </OeREBKRM_V2_0.Amt.Amt>
+      <OeREBKRM_V2_0.Amt.Amt TID="ch.2401">
+        <Name>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gemeinde Egerkingen</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Name>
+        <AmtImWeb>
+          <OeREBKRM_V2_0.MultilingualUri>
+            <LocalisedText>
+              <OeREBKRM_V2_0.LocalisedUri>
+                <Language>de</Language>
+                <Text>http://www.egerkingen.ch/</Text>
+              </OeREBKRM_V2_0.LocalisedUri>
+            </LocalisedText>
+          </OeREBKRM_V2_0.MultilingualUri>
+        </AmtImWeb>
+        <Strasse>Bahnhofstrasse</Strasse>
+        <Hausnr>22</Hausnr>
+        <PLZ>4622</PLZ>
+        <Ort>Egerkingen</Ort>
+      </OeREBKRM_V2_0.Amt.Amt>
       <OeREBKRM_V2_0.Amt.Amt TID="ch.2457">
         <Name>
           <LocalisationCH_V1.MultilingualText>
