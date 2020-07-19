@@ -64,6 +64,32 @@
         <PLZ>4509</PLZ>
         <Ort>Solothurn</Ort>
       </OeREBKRM_V2_0.Amt.Amt>
+      <OeREBKRM_V2_0.Amt.Amt TID="ch.so.avt">
+        <Name>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Amt für Verkehr und Tiefbau</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Name>
+        <AmtImWeb>
+          <OeREBKRM_V2_0.MultilingualUri>
+            <LocalisedText>
+              <OeREBKRM_V2_0.LocalisedUri>
+                <Language>de</Language>
+                <Text>https://avt.so.ch</Text>
+              </OeREBKRM_V2_0.LocalisedUri>
+            </LocalisedText>
+          </OeREBKRM_V2_0.MultilingualUri>
+        </AmtImWeb>
+        <Strasse>Werkhofstrasse</Strasse>
+        <Hausnr>65</Hausnr>
+        <PLZ>4509</PLZ>
+        <Ort>Solothurn</Ort>
+      </OeREBKRM_V2_0.Amt.Amt>
       <OeREBKRM_V2_0.Amt.Amt TID="ch.so.sk">
         <Name>
           <LocalisationCH_V1.MultilingualText>

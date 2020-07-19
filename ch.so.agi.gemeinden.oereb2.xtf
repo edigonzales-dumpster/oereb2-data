@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+  <HEADERSECTION SENDER="ili2pg-4.3.1-23b1f79e8ad644414773bb9bd1a97c8c265c5082" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="InternationalCodes_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="Localisation_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="LocalisationCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="Dictionaries_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="DictionariesCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="OeREBKRM_V2_0" VERSION="2020-07-02" URI="https://models.geo.admin.ch/V_D/OeREB/"/>
+      <MODEL NAME="CHAdminCodes_V1" VERSION="2018-02-19" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="AdministrativeUnits_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="AdministrativeUnitsCH_V1" VERSION="2020-04-24" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="OeREBKRMvs_V2_0" VERSION="2020-07-02" URI="https://models.geo.admin.ch/V_D/OeREB/"/>
+      <MODEL NAME="OeREBKRMkvs_V2_0" VERSION="2020-07-02" URI="https://models.geo.admin.ch/V_D/OeREB/"/>
+    </MODELS>
+  </HEADERSECTION>
+  <DATASECTION>
+    <OeREBKRMkvs_V2_0.Konfiguration BID="OeREBKRMkvs_V2_0.Konfiguration">
+      <OeREBKRMkvs_V2_0.Konfiguration.GemeindeMitOeREBK TID="1">
+        <Gemeinde>2401</Gemeinde>
+        <Themen>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Nutzungsplanung</Thema>
+            <SubThema>ch.SO.NutzungsplanungGrundnutzung</SubThema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Nutzungsplanung</Thema>
+            <SubThema>ch.SO.NutzungsplanungUeberlagernd</SubThema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Nutzungsplanung</Thema>
+            <SubThema>ch.SO.NutzungsplanungSondernutzungsplaene</SubThema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Nutzungsplanung</Thema>
+            <SubThema>ch.SO.Baulinien</SubThema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Waldabstandslinien</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Laermemfindlichkeitsstufen</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+        </Themen>
+        <GrundlagedatenStand>2020-07-19T00:00:00.000</GrundlagedatenStand>
+        <BezeichnungUntereinheitGrundbuch>Grundbuch</BezeichnungUntereinheitGrundbuch>
+      </OeREBKRMkvs_V2_0.Konfiguration.GemeindeMitOeREBK>
+      <OeREBKRMkvs_V2_0.Konfiguration.GemeindeMitOeREBK TID="2">
+        <Gemeinde>2457</Gemeinde>
+        <Themen>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Nutzungsplanung</Thema>
+            <SubThema>ch.SO.NutzungsplanungGrundnutzung</SubThema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Nutzungsplanung</Thema>
+            <SubThema>ch.SO.NutzungsplanungUeberlagernd</SubThema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Nutzungsplanung</Thema>
+            <SubThema>ch.SO.NutzungsplanungSondernutzungsplaene</SubThema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Nutzungsplanung</Thema>
+            <SubThema>ch.SO.Baulinien</SubThema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Waldabstandslinien</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Laermemfindlichkeitsstufen</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+        </Themen>
+        <GrundlagedatenStand>2020-07-19T00:00:00.000</GrundlagedatenStand>
+        <BezeichnungUntereinheitGrundbuch>Grundbuch</BezeichnungUntereinheitGrundbuch>
+      </OeREBKRMkvs_V2_0.Konfiguration.GemeindeMitOeREBK>
+      <OeREBKRMkvs_V2_0.Konfiguration.GemeindeMitOeREBK TID="3">
+        <Gemeinde>2502</Gemeinde>
+        <Themen>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Nutzungsplanung</Thema>
+            <SubThema>ch.SO.NutzungsplanungGrundnutzung</SubThema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Nutzungsplanung</Thema>
+            <SubThema>ch.SO.NutzungsplanungUeberlagernd</SubThema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Nutzungsplanung</Thema>
+            <SubThema>ch.SO.NutzungsplanungSondernutzungsplaene</SubThema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Nutzungsplanung</Thema>
+            <SubThema>ch.SO.Baulinien</SubThema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Waldabstandslinien</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+          <OeREBKRM_V2_0.ThemaRef>
+            <Thema>ch.Laermemfindlichkeitsstufen</Thema>
+          </OeREBKRM_V2_0.ThemaRef>
+        </Themen>
+        <GrundlagedatenStand>2020-07-19T00:00:00.000</GrundlagedatenStand>
+        <BezeichnungUntereinheitGrundbuch>Grundbuch</BezeichnungUntereinheitGrundbuch>
+      </OeREBKRMkvs_V2_0.Konfiguration.GemeindeMitOeREBK>
+    </OeREBKRMkvs_V2_0.Konfiguration>
+    <OeREBKRMkvs_V2_0.MetadatenKVS BID="OeREBKRMkvs_V2_0.MetadatenKVS">
+</OeREBKRMkvs_V2_0.MetadatenKVS>
+    <OeREBKRMkvs_V2_0.Thema BID="OeREBKRMkvs_V2_0.Thema">
+</OeREBKRMkvs_V2_0.Thema>
+  </DATASECTION>
+</TRANSFER>
